@@ -1,0 +1,59 @@
+body{
+	background-color: #efeeea;
+	color: #747d97;
+	font-family: inconsolasta;
+	font-size: 18px;
+}
+h1{
+	font-family: josefin sans;
+	margin: 10px;
+}
+table tr th,td{
+  border-collapse: collapse;
+  padding: 10px;
+}
+th{
+  background-color: #9f789d;
+  color: #efeeea;
+}
+a{
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: bold;
+	text-decoration: none;
+	color: #efeeea;
+	background: #747d97;
+	padding: 5px;
+	border-radius: 5px;
+}
+input,select{
+	padding: 5px;
+	font-size: 13px;
+	font-family: inherit;
+	color: #212133;
+}
+input[type='submit']{
+	background-color: #eb9c28;
+	color: #efeeea;
+	font-weight: bold;
+	border-radius: 10px;
+	font-family: ubuntu;
+	font-size: 19px;
+}
+input.cari{
+	background-color: #fbfafb;
+	width: 250px;
+	font-size: 15px;
+	font-family: fira sans;
+}
+fieldset{
+	margin-right: 700px;
+}
+legend{
+	background-color: #9f789d;
+	color: #efeeea;
+	border-radius: 10px;
+}
+*:focus{
+  outline: none;
+}
